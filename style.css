@@ -1,0 +1,91 @@
+
+.top{
+    position: relative;
+    width: 18%;
+    height: 18%;
+    border-radius: 50%;
+   
+}
+
+h1{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: large;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ig{
+    background-color: white;
+    border-radius: 30%;
+
+}
+.steam{
+    background-color: white;
+    border-radius: 30%;
+}
+.linkedin{
+    background-color: white;
+    border-radius: 30%;
+}
+
+
+.ig:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+} 
+
+.steam:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.linkedin:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.boton1:hover{
+    background-color: #949292;
+    color: white;
+    transform: scale(1.02);
+    transition: 0.3s;
+    
+}
+.boton2:hover{
+    background-color: #949292;
+    color: white;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.boton3:hover{
+    background-color: #949292;
+    color: white;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.boton4:hover{
+    background-color: #949292;
+    color: white;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
