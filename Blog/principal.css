@@ -1,0 +1,169 @@
+body{
+    background-image: image-set(url(../Imagenes/FONDOPAG.png));
+    backdrop-filter: blur(4px) brightness(0.2);
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+}
+body {
+    font-family: 'Inter', 'Segoe UI', 'Arial', sans-serif;
+}
+        nav {
+            background: #181818;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: end;
+            margin: 0;
+            padding: 0;
+            gap: 50px;
+        }
+        nav ul li {
+            margin: 0 2em;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        header{
+            font-size: medium;
+            font-weight: 800;
+            padding: 30px;
+        }
+        h1{
+            font-size: xx-large;
+            font-weight: 800;
+        }
+        p{
+            font-size: large;
+        }
+        h2{
+            font-size: 1em;
+            font-weight: 500;
+        }
+ 
+        .titulo {
+            border: 0px solid #333;
+            color: white;
+            border-radius: 10px;
+            padding: 24px 32px;
+            margin-bottom: 32px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;;
+
+        }
+
+        .subtitulo {
+            border: 0px solid #333;
+            border-radius: 10px;
+            padding: 18px 28px;
+            color: white;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2em auto;
+            max-width: 1000px;
+            gap: 2em;
+        }
+
+        .box1,.box2,.box3,.box4,.box5,.box6 {
+            background: #fffdfd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            transition: transform 0.2s;
+            text-align: center;
+        }
+
+        .box1:hover,
+        .box2:hover,
+        .box3:hover,
+        .box4:hover,
+        .box5:hover,
+        .box6:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        .container a {
+            color: #ffffff;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navegador:hover {
+            transform: scale(1.1);
+            transition:  transform 0.3s;
+        }
+        
+        
+        .box1{
+            background-image: image-set(url(../Imagenes/got1.png));background-size: cover;
+            filter: contrast(40%);          
+        }
+        .box2{
+            background-image: image-set(url(../Imagenes/cs.png));background-size: cover;background-position-x:-40px;
+            filter: contrast(40%);
+        }
+        .box3{
+            background-image: image-set(url(../Imagenes/wow.png)); background-size: cover;
+            filter: contrast(40%)
+        }
+        .box4{
+            background-image: image-set(url(../Imagenes/fc25.png)); background-size: cover;
+            filter: contrast(40%);
+        }
+        .box5{
+            background-image: image-set(url(../Imagenes/aoe.png)); background-size: cover; background-position-x:-25px ;
+            filter: contrast(40%);
+        }
+        .box6{
+            background-image: image-set(url(../Imagenes/out.png)); background-size: cover;
+            filter: contrast(40%);
+        }
+
+
+    footer {
+    background-color: black;
+    padding: 20px;
+    color:white;
+    width: 129,1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top: 6em;
+}
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin:0 auto;
+
+    }

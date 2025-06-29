@@ -1,0 +1,30 @@
+.titulo {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-family: "Underdog", system-ui;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.subtitulo {
+  color: white;
+  font-size: x-large;
+  margin-left:5px;
+  margin-top: 50px;
+  font-family: "Underdog", system-ui;
+}
+
+.boton1{
+    font-size: xx-large;
+    color:white;
+    margin-top: 250px;;
+}
+
+a{ 
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 400px;
+}
